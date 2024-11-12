@@ -22,3 +22,5 @@ The site initializers expect some of the other client extensions to already be a
 https://github.com/marcoscv-work/noClay-theme-css-client-extension
 
 ## Presentation
+
+[How_to_Implement_your_Design_System_in_Liferay_EVAN_THIBODEAU_DEVCON_2024.pdf](How_to_Implement_your_Design_System_in_Liferay_EVAN_THIBODEAU_DEVCON_2024.pdf)
