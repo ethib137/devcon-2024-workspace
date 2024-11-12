@@ -1,0 +1,23 @@
+<style>
+	.sidebar-${fragmentEntryLinkNamespace} .dialect-sidebar {
+		width: ${configuration.sidebarWidthCollapsed};
+	}
+
+	.sidebar-${fragmentEntryLinkNamespace} .dialect-sidebar:hover {
+		width: ${configuration.sidebarWidth};
+	}
+
+	.sidebar-${fragmentEntryLinkNamespace} .dialect-content {
+		padding-left: ${configuration.sidebarWidthCollapsed};
+	}
+</style>
+
+<div class="dialect-sidebar-container sidebar-${fragmentEntryLinkNamespace}">
+	<div class="bg-white dialect-sidebar">
+		<lfr-drop-zone></lfr-drop-zone>
+	</div>
+
+	<div class="dialect-content">
+		<lfr-drop-zone></lfr-drop-zone>
+	</div>
+</div>

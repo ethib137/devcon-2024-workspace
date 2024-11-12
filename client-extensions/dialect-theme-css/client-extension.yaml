@@ -1,0 +1,12 @@
+assemble:
+    - from: build/buildTheme/img
+      into: static/img
+assemble:
+    - from: build/buildTheme/images
+      into: static/images
+dialect-theme-css:
+    clayURL: css/clay.css
+    frontendTokenDefinitionJSON: src/frontend-token-definition.json
+    mainURL: css/main.css
+    name: Dialect Theme CSS
+    type: themeCSS

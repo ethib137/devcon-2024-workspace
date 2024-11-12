@@ -1,0 +1,280 @@
+{
+	"frontendTokenCategories": [
+		{
+			"frontendTokenSets": [
+				{
+					"frontendTokens": [
+						{
+							"defaultValue": "#0b5fff",
+							"editorType": "ColorPicker",
+							"label": "Primary Color",
+							"mappings": [
+								{
+									"type": "cssVariable",
+									"value": "primary-color"
+								}
+							],
+							"name": "primaryColor",
+							"type": "String"
+						},
+						{
+							"defaultValue": "#0053f0",
+							"editorType": "ColorPicker",
+							"label": "Primary Color Dark",
+							"mappings": [
+								{
+									"type": "cssVariable",
+									"value": "primary-color-dark"
+								}
+							],
+							"name": "primaryColorDark",
+							"type": "String"
+						},
+						{
+							"defaultValue": "#88889a",
+							"editorType": "ColorPicker",
+							"label": "Secondary Color",
+							"mappings": [
+								{
+									"type": "cssVariable",
+									"value": "secondary-color"
+								}
+							],
+							"name": "secondaryColor",
+							"type": "String"
+						},
+						{
+							"defaultValue": "#6b6c7e",
+							"editorType": "ColorPicker",
+							"label": "Secondary Color Dark",
+							"mappings": [
+								{
+									"type": "cssVariable",
+									"value": "secondary-color-dark"
+								}
+							],
+							"name": "secondaryColorDark",
+							"type": "String"
+						},
+						{
+							"defaultValue": "#1c1c24",
+							"editorType": "ColorPicker",
+							"label": "Dark",
+							"mappings": [
+								{
+									"type": "cssVariable",
+									"value": "dark"
+								}
+							],
+							"name": "dark",
+							"type": "String"
+						},
+						{
+							"defaultValue": "#f0f5ff",
+							"editorType": "ColorPicker",
+							"label": "Light",
+							"mappings": [
+								{
+									"type": "cssVariable",
+									"value": "light"
+								}
+							],
+							"name": "light",
+							"type": "String"
+						},
+						{
+							"defaultValue": "white",
+							"editorType": "ColorPicker",
+							"label": "White",
+							"mappings": [
+								{
+									"type": "cssVariable",
+									"value": "white"
+								}
+							],
+							"name": "white",
+							"type": "String"
+						},
+						{
+							"defaultValue": "black",
+							"editorType": "ColorPicker",
+							"label": "Black",
+							"mappings": [
+								{
+									"type": "cssVariable",
+									"value": "black"
+								}
+							],
+							"name": "black",
+							"type": "String"
+						}
+					],
+					"label": "System Colors",
+					"name": "systemColor"
+				},
+				{
+					"frontendTokens": [
+						{
+							"defaultValue": "#cbb3ff",
+							"editorType": "ColorPicker",
+							"label": "Bran Color 1",
+							"mappings": [
+								{
+									"type": "cssVariable",
+									"value": "brand-color-1"
+								}
+							],
+							"name": "brandColor1",
+							"type": "String"
+						},
+						{
+							"defaultValue": "#eee6ff",
+							"editorType": "ColorPicker",
+							"label": "Bran Color 2",
+							"mappings": [
+								{
+									"type": "cssVariable",
+									"value": "brand-color-2"
+								}
+							],
+							"name": "brandColor2",
+							"type": "String"
+						},
+						{
+							"defaultValue": "#c0eeaa",
+							"editorType": "ColorPicker",
+							"label": "Bran Color 3",
+							"mappings": [
+								{
+									"type": "cssVariable",
+									"value": "brand-color-3"
+								}
+							],
+							"name": "brandColor3",
+							"type": "String"
+						},
+						{
+							"defaultValue": "#ddfccf",
+							"editorType": "ColorPicker",
+							"label": "Bran Color 4",
+							"mappings": [
+								{
+									"type": "cssVariable",
+									"value": "brand-color-4"
+								}
+							],
+							"name": "brandColor4",
+							"type": "String"
+						}
+					],
+					"label": "Brand Colors",
+					"name": "brandColors"
+				}
+			],
+			"label": "Color Tokens",
+			"name": "colorTokens"
+		},
+		{
+			"frontendTokenSets": [
+				{
+					"frontendTokens": [
+						{
+							"defaultValue": "#272833",
+							"editorType": "ColorPicker",
+							"label": "Header Color",
+							"mappings": [
+								{
+									"type": "cssVariable",
+									"value": "headerColor"
+								}
+							],
+							"name": "headerColor",
+							"type": "String"
+						},
+						{
+							"defaultValue": "white",
+							"editorType": "ColorPicker",
+							"label": "Header BG Color",
+							"mappings": [
+								{
+									"type": "cssVariable",
+									"value": "headerBGColor"
+								}
+							],
+							"name": "headerBGColor",
+							"type": "String"
+						}
+					],
+					"label": "Header",
+					"name": "header"
+				},
+				{
+					"frontendTokens": [
+						{
+							"defaultValue": "#272833",
+							"editorType": "ColorPicker",
+							"label": "Body Color",
+							"mappings": [
+								{
+									"type": "cssVariable",
+									"value": "bodyColor"
+								}
+							],
+							"name": "bodyColor",
+							"type": "String"
+						},
+						{
+							"defaultValue": "white",
+							"editorType": "ColorPicker",
+							"label": "Body BG Color",
+							"mappings": [
+								{
+									"type": "cssVariable",
+									"value": "bodyBGColor"
+								}
+							],
+							"name": "bodyBGColor",
+							"type": "String"
+						}
+					],
+					"label": "Body",
+					"name": "body"
+				},
+				{
+					"frontendTokens": [
+						{
+							"defaultValue": "white",
+							"editorType": "ColorPicker",
+							"label": "Footer Color",
+							"mappings": [
+								{
+									"type": "cssVariable",
+									"value": "footerColor"
+								}
+							],
+							"name": "footerColor",
+							"type": "String"
+						},
+						{
+							"defaultValue": "#30313f",
+							"editorType": "ColorPicker",
+							"label": "Footer BG Color",
+							"mappings": [
+								{
+									"type": "cssVariable",
+									"value": "footerBGColor"
+								}
+							],
+							"name": "footerBGColor",
+							"type": "String"
+						}
+					],
+					"label": "Footer",
+					"name": "footer"
+				}
+			],
+			"label": "Theme Tokens",
+			"name": "themeTokens"
+		}
+	]
+}

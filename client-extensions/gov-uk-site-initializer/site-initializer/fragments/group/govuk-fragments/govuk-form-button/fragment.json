@@ -1,0 +1,14 @@
+{
+	"configurationPath": "configuration.json",
+	"cssPath": "index.css",
+	"htmlPath": "index.html",
+	"icon": "forms",
+	"jsPath": "index.js",
+	"name": "GovUK Form Button",
+	"type": "input",
+	"typeOptions": {
+		"fieldTypes": [
+			"formButton"
+		]
+	}
+}

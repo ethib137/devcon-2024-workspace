@@ -1,0 +1,73 @@
+{
+	"fieldSets": [
+		{
+			"fields": [
+				{
+					"dataType": "string",
+					"defaultValue": "submit",
+					"label": "type",
+					"name": "type",
+					"type": "select",
+					"typeOptions": {
+						"validValues": [
+							{
+								"value": "previous"
+							},
+							{
+								"value": "next"
+							},
+							{
+								"value": "submit"
+							}
+						]
+					}
+				},
+				{
+					"dataType": "string",
+					"defaultValue": "approved",
+					"label": "submitted-entry-status",
+					"name": "submittedEntryStatus",
+					"type": "select",
+					"typeOptions": {
+						"validValues": [
+							{
+								"label": "approved",
+								"value": "0"
+							},
+							{
+								"label": "draft",
+								"value": "2"
+							}
+						]
+					}
+				},
+				{
+					"dataType": "string",
+					"defaultValue": "primary",
+					"label": "style",
+					"name": "buttonType",
+					"type": "select",
+					"typeOptions": {
+						"validValues": [
+							{
+								"value": "primary"
+							},
+							{
+								"label": "secondary",
+								"value": "govuk-button--secondary"
+							},
+							{
+								"label": "Primary Inverse",
+								"value": "govuk-button--inverse"
+							},
+							{
+								"label": "Secondary Inverse",
+								"value": "govuk-button--secondary govuk-button--inverse"
+							}
+						]
+					}
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,13 @@
+gov-uk-site-initializer:
+    name: Gov UK Site Initializer
+    oAuthApplicationHeadlessServer: gov-uk-site-initializer-oauth-application-headless-server
+    siteExternalReferenceCode: govUK
+    siteName: Gov UK
+    type: siteInitializer
+gov-uk-site-initializer-oauth-application-headless-server:
+    .serviceAddress: localhost:8080
+    .serviceScheme: http
+    name: Gov UK OAuth Application Headless Server
+    scopes:
+        - Liferay.Headless.Site.everything
+    type: oAuthApplicationHeadlessServer

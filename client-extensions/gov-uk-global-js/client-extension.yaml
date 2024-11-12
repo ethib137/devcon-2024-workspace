@@ -1,0 +1,10 @@
+assemble:
+    - from: assets
+      into: static
+gov-uk-global-js:
+    name: Gov UK Global JS
+    scriptElementAttributes:
+        data-senna-track: permanent
+        type: module
+    type: globalJS
+    url: global.js

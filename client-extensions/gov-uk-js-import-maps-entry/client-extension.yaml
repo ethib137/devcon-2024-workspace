@@ -1,0 +1,8 @@
+assemble:
+    - from: assets
+      into: static
+gov-uk-js-import-maps-entry:
+    bareSpecifier: govuk
+    name: Gov UK JS Import Maps Entry
+    type: jsImportMapsEntry
+    url: govuk-frontend-5.7.1.min.js

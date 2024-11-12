@@ -1,0 +1,262 @@
+// General Custom Properties
+
+:root {
+    --primary-color: #0b5fff;
+    --primary-color-dark: #0053f0;
+    --secondary-color: #88889a;
+    --secondary-color-dark: #6b6c7e;
+    --dark: #1c1c24;
+    --light: #f0f5ff;
+    --white: white;
+    --black: black;
+    --shadow: 0 1px 5px -1px rgba(0, 0, 0, 0.3);
+
+    --brand-color-1: #cbb3ff;
+    --brand-color-2: #eee6ff;
+    --brand-color-3: #c0eeaa;
+    --brand-color-4: #ddfccf;
+}
+
+// Common classes
+
+.list-unstyled {
+    list-style: none;
+    padding-left: 0;
+}
+
+.sticker-circle {
+    border-radius: 50%;
+}
+
+.input-grou,
+.input-group-item,
+.form-group-inline {
+    display: inline-flex;
+}
+
+.overlay {
+    position: absolute;
+}
+
+.disabled {
+    opacity: 0.6;
+}
+
+// Basic Dropdown
+
+.dropdown-menu {
+    background-color: var(--white);
+    border-radius: 0.25rem;
+    border-width: 0px;
+    box-shadow: var(--shadow);
+    color: var(--dark, #1c1c24);
+    display: none;
+    float: left;
+    left: 0;
+    list-style: none;
+    margin: 0.3125rem 0 0;
+    max-height: 500px;
+    max-width: 240px;
+    min-height: 40px;
+    min-width: 240px;
+    overflow: auto;
+    padding: 0.375rem 0;
+    position: absolute;
+    top: 100%;
+    z-index: 1000;
+
+    > .list-unstyled {
+        margin-bottom: 0;
+    }
+
+    @media (max-width: 991.98px) {
+        max-height: 295px;
+        max-width: 230px;
+    }
+}
+
+.dropdown-item {
+    background-color: transparent;
+    border-radius: 0px;
+    border-width: 0px;
+    color: var(--dark, #1c1c24);
+    display: block;
+    padding: 6px 10px;
+    font-size: 0.875rem;
+    width: 100%;
+    text-align: left;
+
+    &:active,
+    &:hover,
+    .hover {
+        background-color: var(--light, #f0f5ff);
+        text-decoration: none;
+    }
+}
+
+.dropdown-subheader {
+    padding: 6px 10px;
+    text-transform: uppercase;
+}
+
+.dropdown-menu.show {
+    display: block;
+}
+
+// Basic Navbar
+
+.navbar-nav {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 0.875rem;
+    list-style: none;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.nav-item {
+    align-items: center;
+    display: flex;
+    word-wrap: normal;
+    max-width: 100%;
+}
+
+.nav-link {
+    color: var(--dark, #1c1c24);
+    padding: 0.625rem 1rem;
+}
+
+.navbar-toggler {
+    display: none;
+}
+
+// Basic Buttons
+
+.btn {
+    background-color: transparent;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 0.0625rem;
+    border-radius: 0.25rem;
+    color: var(--dark, #1c1c24);
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1rem;
+    line-height: 1.5;
+    padding: 0.45rem 0.95rem;
+    text-align: center;
+    vertical-align: middle;
+
+    &:active,
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+.btn-sm {
+    padding: 0.35rem 0.85rem;
+    font-size: 0.875rem;
+}
+
+.btn-lg {
+    padding: 0.65rem 1.15rem;
+    font-size: 1rem;
+}
+
+.btn-primary {
+    background-color: var(--primary-color, #0b5fff);
+    border-color: var(--primary-color, #0b5fff);
+    color: var(--white);
+
+    &:active,
+    &:hover {
+        background-color: var(--primary-color-dark, #0053f0);
+        color: var(--white);
+    }
+}
+
+.btn-secondary {
+    background-color: var(--white);
+    border-color: var(--secondary-color-dark, #88889a);
+    color: var(--secondary-color, #6b6c7e);
+
+    &:active,
+    &:hover {
+        background-color: #f7f8f9;
+        color: var(--secondary-color, #6b6c7e);
+    }
+}
+
+// Basic form control input
+
+.form-control {
+    background-color: #f1f2f5;
+    border-color: #e7e7ed;
+    border-style: solid;
+    border-width: 0.0625rem;
+    border-radius: 0.25rem;
+    color: var(--dark, #272833);
+    display: block;
+    font-size: 1rem;
+    font-weight: 400;
+    height: 2.5rem;
+    line-height: 1.5;
+    min-width: 0;
+    padding: 0.4375rem 1rem;
+    width: 100%;
+
+    &[readonly] {
+        background-color: var(--white, #fff);
+    }
+}
+
+// Basic autofit layout
+
+.autofit-row {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+.autofit-col {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    min-height: 0;
+    position: relative;
+}
+
+.autofit-col-expand {
+    flex-grow: 1;
+    flex-shrink: 1;
+    min-width: 3.125rem;
+    word-wrap: break-word;
+}
+
+// Theme
+
+.personal-menu-dropdown .btn-unstyled {
+    box-shadow: 0 0 0 1px #e7e7ed;
+}
+
+// Theme Structure Tokens
+
+body {
+    color: var(--dark, #1c1c24);
+}
+
+#banner {
+    background-color: var(--headerBGColor, white);
+    color: var(--headerColor, #272833);
+}
+
+#content {
+    background-color: var(--bodyBGColor, white);
+    color: var(--bodyColor, #272833);
+}
+
+#footer {
+    background-color: var(--footerBGColor, #30313f);
+    color: var(--footerColor, white);
+    padding: 50px 20px;
+}

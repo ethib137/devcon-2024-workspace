@@ -1,0 +1,14 @@
+{
+	"friendlyURL": "/search",
+	"hidden": true,
+	"name": "Search",
+	"private": false,
+	"system": false,
+	"type": "content",
+	"typeSettings": [
+		{
+			"key": "layoutUpdateable",
+			"value": "true"
+		}
+	]
+}

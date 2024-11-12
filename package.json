@@ -1,0 +1,10 @@
+{
+	"private": true,
+	"workspaces": {
+		"packages": [
+			"client-extensions/gov-uk-js-import-maps-entry",
+			"client-extensions/gov-uk-global-js",
+			"client-extensions/gov-uk-css"
+		]
+	}
+}

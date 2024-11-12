@@ -1,0 +1,35 @@
+.has-control-menu .dialect-sidebar-container .dialect-sidebar {
+	top: 56px;
+}
+
+.has-control-menu.has-edit-mode-menu
+	.dialect-sidebar-container
+	.dialect-sidebar {
+	top: 120px;
+}
+
+body.open .dialect-sidebar-container .dialect-sidebar {
+	transform: translateX(320px);
+}
+
+.dialect-sidebar-container .dialect-sidebar {
+	bottom: 0;
+	box-shadow: none;
+	left: 0;
+	overflow-x: hidden;
+	overflow-y: auto;
+	position: fixed;
+	top: 0;
+	transform: translateX(0);
+	transition: box-shadow var(--transition-base),
+		transform var(--transition-base), width var(--transition-base);
+	z-index: 960;
+}
+
+.dialect-sidebar-container .dialect-sidebar:hover {
+	box-shadow: var(--box-shadow);
+}
+
+.dialect-sidebar-container .dialect-sidebar > div {
+	height: 100%;
+}

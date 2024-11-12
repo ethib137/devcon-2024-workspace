@@ -1,0 +1,7 @@
+assemble:
+    - from: assets
+      into: static
+gov-uk-css:
+    name: GOV UK Global CSS
+    type: globalCSS
+    url: govuk-frontend.min.css

@@ -1,0 +1,15 @@
+{
+	"fieldSets": [
+		{
+			"fields": [
+				{
+					"dataType": "string",
+					"defaultValue": "",
+					"label": "redirect-url",
+					"name": "redirectURL",
+					"type": "text"
+				}
+			]
+		}
+	]
+}

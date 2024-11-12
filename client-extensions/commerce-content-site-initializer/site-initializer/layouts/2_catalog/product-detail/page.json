@@ -1,0 +1,14 @@
+{
+	"friendlyURL": "/product-detail",
+	"hidden": true,
+	"name": "Product Detail",
+	"private": false,
+	"system": false,
+	"type": "content",
+	"typeSettings": [
+		{
+			"key": "layoutUpdateable",
+			"value": "true"
+		}
+	]
+}

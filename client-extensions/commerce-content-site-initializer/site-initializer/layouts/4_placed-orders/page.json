@@ -1,0 +1,18 @@
+{
+	"friendlyURL": "/palced-orders",
+	"hidden": false,
+	"name": "Placed Orders",
+	"private": false,
+	"system": false,
+	"type": "content",
+	"typeSettings": [
+		{
+			"key": "layoutUpdateable",
+			"value": "true"
+		},
+		{
+			"key": "published",
+			"value": "true"
+		}
+	]
+}

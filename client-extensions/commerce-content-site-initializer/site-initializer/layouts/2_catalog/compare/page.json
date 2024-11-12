@@ -1,0 +1,14 @@
+{
+	"friendlyURL": "/page-compare",
+	"hidden": true,
+	"name": "Page Compare",
+	"private": false,
+	"system": false,
+	"type": "content",
+	"typeSettings": [
+		{
+			"key": "layoutUpdateable",
+			"value": "true"
+		}
+	]
+}

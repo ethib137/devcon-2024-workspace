@@ -1,0 +1,18 @@
+{
+	"friendlyURL": "/account-management",
+	"hidden": false,
+	"name": "Account Management",
+	"private": false,
+	"system": false,
+	"type": "content",
+	"typeSettings": [
+		{
+			"key": "layoutUpdateable",
+			"value": "true"
+		},
+		{
+			"key": "published",
+			"value": "true"
+		}
+	]
+}

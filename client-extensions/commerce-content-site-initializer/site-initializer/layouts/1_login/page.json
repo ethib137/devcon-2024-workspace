@@ -1,0 +1,34 @@
+{
+	"friendlyURL": "/login",
+	"hidden": true,
+	"name": "Login",
+	"private": false,
+	"system": false,
+	"type": "content",
+	"typeSettings": [
+		{
+			"key": "layoutUpdateable",
+			"value": "true"
+		},
+		{
+			"key": "lfr-theme:regular:show-footer",
+			"value": "false"
+		},
+		{
+			"key": "lfr-theme:regular:show-header",
+			"value": "false"
+		},
+		{
+			"key": "lfr-theme:regular:show-header-search",
+			"value": "false"
+		},
+		{
+			"key": "lfr-theme:regular:wrap-widget-page-content",
+			"value": "false"
+		},
+		{
+			"key": "published",
+			"value": "true"
+		}
+	]
+}

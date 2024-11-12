@@ -1,0 +1,13 @@
+commerce-content-site-initializer:
+    name: Commerce Content Site Initializer
+    oAuthApplicationHeadlessServer: commerce-content-site-initializer-oauth-application-headless-server
+    siteExternalReferenceCode: commerce Content
+    siteName: Commerce Content
+    type: siteInitializer
+commerce-content-site-initializer-oauth-application-headless-server:
+    .serviceAddress: localhost:8080
+    .serviceScheme: http
+    name: Commerce Content OAuth Application Headless Server
+    scopes:
+        - Liferay.Headless.Site.everything
+    type: oAuthApplicationHeadlessServer

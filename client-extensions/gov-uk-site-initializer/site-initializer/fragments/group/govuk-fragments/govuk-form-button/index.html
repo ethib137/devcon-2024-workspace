@@ -1,0 +1,19 @@
+[#assign type=configuration.type!'submit']
+
+[#if configuration.type == "previous"]
+	<button class="govuk-button {configuration.buttonType}" data-module="govuk-button" id="fragment-${fragmentEntryLinkNamespace}-form-button" type="button">
+		<span data-lfr-editable-id="previous-button-text" data-lfr-editable-type="text">
+			Previous
+		</span>
+	</button>
+[#elseif configuration.type == "next"]
+	<button class="govuk-button {configuration.buttonType}" data-module="govuk-button" id="fragment-${fragmentEntryLinkNamespace}-form-button" type="button">
+		<span data-lfr-editable-id="next-button-text" data-lfr-editable-type="text">
+			Next
+		</span>
+	</button>
+[#else]
+	<button class="govuk-button {configuration.buttonType}" data-lfr-editable-id="submit-button-text" data-lfr-editable-type="text" data-module="govuk-button" id="fragment-${fragmentEntryLinkNamespace}-submit-button" name="status" type="submit" value="${configuration.submittedEntryStatus}">
+		Submit
+	</button>
+[/#if]

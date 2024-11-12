@@ -1,0 +1,22 @@
+{
+	"fieldSets": [
+		{
+			"fields": [
+				{
+					"dataType": "string",
+					"defaultValue": "240px",
+					"label": "sidebar-width",
+					"name": "sidebarWidth",
+					"type": "text"
+				},
+				{
+					"dataType": "string",
+					"defaultValue": "70px",
+					"label": "sidebar-width-collapsed",
+					"name": "sidebarWidthCollapsed",
+					"type": "text"
+				}
+			]
+		}
+	]
+}

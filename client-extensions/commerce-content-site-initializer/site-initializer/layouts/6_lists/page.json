@@ -1,0 +1,14 @@
+{
+	"friendlyURL": "/lists",
+	"hidden": true,
+	"name": "Lists",
+	"private": false,
+	"system": false,
+	"type": "content",
+	"typeSettings": [
+		{
+			"key": "layoutUpdateable",
+			"value": "true"
+		}
+	]
+}

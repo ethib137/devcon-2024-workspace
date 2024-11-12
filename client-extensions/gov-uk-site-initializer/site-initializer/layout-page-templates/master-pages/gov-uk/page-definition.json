@@ -1,0 +1,127 @@
+{
+	"pageElement": {
+		"id": "e06a67fa-539e-7790-9545-7a8e62b29f74",
+		"pageElements": [
+			{
+				"definition": {
+					"fragment": {
+						"key": "govuk-header",
+						"siteKey": "Gov UK Test"
+					},
+					"fragmentConfig": {
+					},
+					"fragmentFields": [
+						{
+							"id": "link",
+							"value": {
+								"fragmentLink": {
+									"value": {
+										"href": {
+											"value": "/web/gov-uk-test"
+										}
+									}
+								}
+							}
+						}
+					],
+					"indexed": true
+				},
+				"id": "b56299ac-bc52-c02a-e1a4-ad0255559f18",
+				"type": "Fragment"
+			},
+			{
+				"definition": {
+					"fragment": {
+						"key": "govuk-navigation",
+						"siteKey": "Gov UK Test"
+					},
+					"fragmentConfig": {
+						"source": ""
+					},
+					"fragmentFields": [
+					],
+					"indexed": true
+				},
+				"id": "d694e1a9-fac7-9ae9-2ad0-20d48117c175",
+				"type": "Fragment"
+			},
+			{
+				"definition": {
+					"cssClasses": [
+						"govuk-width-container"
+					],
+					"fragmentStyle": {
+						"marginBottom": "3",
+						"marginTop": "3"
+					},
+					"indexed": true,
+					"layout": {
+						"marginBottom": 1,
+						"marginTop": 1
+					}
+				},
+				"id": "85196a13-d04a-c20f-d797-05e91ca48feb",
+				"pageElements": [
+					{
+						"definition": {
+							"fragmentSettings": {
+								"unallowedFragments": [
+								]
+							}
+						},
+						"id": "7254d85d-5402-9bef-8ad4-565b922026c9",
+						"type": "DropZone"
+					}
+				],
+				"type": "Section"
+			},
+			{
+				"definition": {
+					"fragment": {
+						"key": "govuk-footer",
+						"siteKey": "Gov UK Test"
+					},
+					"fragmentConfig": {
+					},
+					"fragmentFields": [
+					],
+					"indexed": true
+				},
+				"id": "a8efe218-a9e9-7b6c-6178-596c0873e9f4",
+				"type": "Fragment"
+			}
+		],
+		"type": "Root"
+	},
+	"settings": {
+		"colorSchemeName": "01",
+		"globalCSSClientExtensions": [
+			{
+				"externalReferenceCode": "LXC:gov-uk-css",
+				"name": "GOV UK Global CSS"
+			}
+		],
+		"globalJSClientExtensions": [
+			{
+				"clientExtensionConfig": {
+					"loadType": "default",
+					"scriptLocation": "head"
+				},
+				"externalReferenceCode": "LXC:gov-uk-global-js",
+				"name": "Gov UK Global JS"
+			}
+		],
+		"themeCSSClientExtension": {
+			"externalReferenceCode": "LXC:liferay-sample-theme-css-3",
+			"name": "Gov UK Theme CSS"
+		},
+		"themeName": "Classic",
+		"themeSettings": {
+			"lfr-theme:regular:show-footer": "false",
+			"lfr-theme:regular:show-header": "false",
+			"lfr-theme:regular:show-header-search": "false",
+			"lfr-theme:regular:wrap-widget-page-content": "false"
+		}
+	},
+	"version": 1.1
+}
