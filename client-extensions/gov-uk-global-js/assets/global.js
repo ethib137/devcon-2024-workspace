@@ -13,4 +13,6 @@ function init() {
 	initAll();
 }
 
+init();
+
 Liferay.on('endNavigate', init);
